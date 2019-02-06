@@ -1,0 +1,7 @@
+libray(loo)
+loo1 <- loo(output_param$log_lik, save_psis = TRUE)
+loo2 <- loo(output2_param$log_lik, save_psis = TRUE)
+loo3 <- loo(output3_param$log_lik, save_psis = TRUE)
+print(loo1)
+print(loo2)
+print(loo3)
